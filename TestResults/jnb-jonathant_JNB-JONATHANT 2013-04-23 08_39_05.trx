@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="9b6a266d-9c2f-477a-9614-615d3e98344c" name="jnb-jonathant@JNB-JONATHANT 2013-04-23 08:39:05" runUser="EXPD\jnb-jonathant" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Trace and Test Impact" id="835d18f1-7d41-4f74-88b9-e6c3cabaf477">
+    <Description>These are test settings for Trace and Test Impact.</Description>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+    <Deployment runDeploymentRoot="jnb-jonathant_JNB-JONATHANT 2013-04-23 08_39_05" />
+  </TestSettings>
+  <Times creation="2013-04-23T08:39:05.4319460+02:00" queuing="2013-04-23T08:39:05.4909519+02:00" start="2013-04-23T08:39:05.5059534+02:00" finish="2013-04-23T08:39:05.6779706+02:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="CellIsNotEqualToNull" storage="c:\users\jnb-jonathant\documents\visual studio 2010\projects\gameoflife\gameoflife\bin\debug\gameoflife.dll" id="d5221296-da67-a796-d2e0-a26cc1382665">
+      <Execution id="1030f474-e217-4b6c-a17c-a5d66b9b9201" />
+      <TestMethod codeBase="C:/Users/jnb-jonathant/Documents/Visual Studio 2010/Projects/GameOfLife/GameOfLife/bin/Debug/GameOfLife.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GameOfLife.CellTester, GameOfLife, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CellIsNotEqualToNull" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="d5221296-da67-a796-d2e0-a26cc1382665" executionId="1030f474-e217-4b6c-a17c-a5d66b9b9201" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="1030f474-e217-4b6c-a17c-a5d66b9b9201" testId="d5221296-da67-a796-d2e0-a26cc1382665" testName="CellIsNotEqualToNull" computerName="JNB-JONATHANT" duration="00:00:00.0119758" startTime="2013-04-23T08:39:05.5099538+02:00" endTime="2013-04-23T08:39:05.6669695+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1030f474-e217-4b6c-a17c-a5d66b9b9201">
+    </UnitTestResult>
+  </Results>
+</TestRun>

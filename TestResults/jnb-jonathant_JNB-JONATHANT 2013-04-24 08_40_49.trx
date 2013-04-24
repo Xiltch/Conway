@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="0726212d-002a-41db-a983-c831b15d5338" name="jnb-jonathant@JNB-JONATHANT 2013-04-24 08:40:49" runUser="EXPD\jnb-jonathant" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Trace and Test Impact" id="835d18f1-7d41-4f74-88b9-e6c3cabaf477">
+    <Description>These are test settings for Trace and Test Impact.</Description>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+    <Deployment runDeploymentRoot="jnb-jonathant_JNB-JONATHANT 2013-04-24 08_40_49" />
+  </TestSettings>
+  <Times creation="2013-04-24T08:40:49.2267380+02:00" queuing="2013-04-24T08:40:49.2977380+02:00" start="2013-04-24T08:40:49.3107380+02:00" finish="2013-04-24T08:40:49.5047380+02:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="WorldWithFourCellsTicksRemainsSame" storage="c:\users\jnb-jonathant\documents\visual studio 2010\projects\gameoflife\gameoflife\bin\debug\gameoflife.dll" id="dd4626d4-242a-2d1e-3c59-c57e621d128b">
+      <Execution id="0628ea22-003a-4e52-a5c0-902682977a44" />
+      <TestMethod codeBase="C:/Users/jnb-jonathant/Documents/Visual Studio 2010/Projects/GameOfLife/GameOfLife/bin/Debug/GameOfLife.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GameOfLife.WorldTester, GameOfLife, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="WorldWithFourCellsTicksRemainsSame" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="dd4626d4-242a-2d1e-3c59-c57e621d128b" executionId="0628ea22-003a-4e52-a5c0-902682977a44" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="0628ea22-003a-4e52-a5c0-902682977a44" testId="dd4626d4-242a-2d1e-3c59-c57e621d128b" testName="WorldWithFourCellsTicksRemainsSame" computerName="JNB-JONATHANT" duration="00:00:00.0288621" startTime="2013-04-24T08:40:49.3107380+02:00" endTime="2013-04-24T08:40:49.4927380+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0628ea22-003a-4e52-a5c0-902682977a44">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method GameOfLife.WorldTester.WorldWithFourCellsTicksRemainsSame threw exception: 
+System.ArgumentException: An item with the same key has already been added.</Message>
+          <StackTrace>    at System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   at System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   at System.Collections.Generic.Dictionary`2.Add(TKey key, TValue value)
+   at GameOfLife.World.Add_Cell(Cell cell) in C:\Users\jnb-jonathant\Documents\Visual Studio 2010\Projects\GameOfLife\GameOfLife\World.cs:line 17
+   at GameOfLife.WorldTester.WorldWithFourCellsTicksRemainsSame() in C:\Users\jnb-jonathant\Documents\Visual Studio 2010\Projects\GameOfLife\GameOfLife\UnitTest1.cs:line 157
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

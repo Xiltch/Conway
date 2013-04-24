@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="d2b98ccc-9f57-4c04-8bc8-265aee85533b" name="jnb-jonathant@JNB-JONATHANT 2013-04-23 08:39:00" runUser="EXPD\jnb-jonathant" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Trace and Test Impact" id="835d18f1-7d41-4f74-88b9-e6c3cabaf477">
+    <Description>These are test settings for Trace and Test Impact.</Description>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+    <Deployment runDeploymentRoot="jnb-jonathant_JNB-JONATHANT 2013-04-23 08_39_00" />
+  </TestSettings>
+  <Times creation="2013-04-23T08:39:00.0684097+02:00" queuing="2013-04-23T08:39:00.1764205+02:00" start="2013-04-23T08:39:00.1884217+02:00" finish="2013-04-23T08:39:00.5444573+02:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="32" executed="32" passed="32" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="NewCellGetsDefaultPositionOf00" storage="c:\users\jnb-jonathant\documents\visual studio 2010\projects\gameoflife\gameoflife\bin\debug\gameoflife.dll" id="ed65301a-2312-5305-dc4f-5ffbcf0ad226">
+      <Execution id="5a1ea609-47fa-48e1-b599-78d95a3a6be8" />
+      <TestMethod codeBase="C:/Users/jnb-jonathant/Documents/Visual Studio 2010/Projects/GameOfLife/GameOfLife/bin/Debug/GameOfLife.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GameOfLife.CellTester, GameOfLife, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NewCellGetsDefaultPositionOf00" />
+    </UnitTest>
+    <UnitTest name="TwoPositionsWithSameValuesAreEqual" storage="c:\users\jnb-jonathant\documents\visual studio 2010\projects\gameoflife\gameoflife\bin\debug\gameoflife.dll" id="c462352c-ef31-22c4-c31f-ed2090a974af">
+      <Execution id="f34062d5-75b5-455b-bb2b-f0426ebaa613" />
+      <TestMethod codeBase="C:/Users/jnb-jonathant/Documents/Visual Studio 2010/Projects/GameOfLife/GameOfLife/bin/Debug/GameOfLife.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GameOfLife.PositionTester, GameOfLife, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TwoPositionsWithSameValuesAreEqual" />
+    </UnitTest>
+    <UnitTest name="TwoPositionsWithDifferentValuesAreNotEqualAssertTrue" storage="c:\users\jnb-jonathant\documents\visual studio 2010\projects\gameoflife\gameoflife\bin\debug\gameoflife.dll" id="a9eefc1c-3f18-9780-4f03-38397751660e">
+      <Execution id="68b9bb2e-7fd5-4933-b585-270cf519d0e5" />
+      <TestMethod codeBase="C:/Users/jnb-jonathant/Documents/Visual Studio 2010/Projects/GameOfLife/GameOfLife/bin/Debug/GameOfLife.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GameOfLife.PositionTester, GameOfLife, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TwoPositionsWithDifferentValuesAreNotEqualAssertTrue" />
+    </UnitTest>
+    <UnitTest name="NullCellIsEqualToNull" storage="c:\users\jnb-jonathant\documents\visual studio 2010\projects\gameoflife\gameoflife\bin\debug\gameoflife.dll" id="3c03a19d-5e41-cedc-7604-60ab0dc811b6">
+      <Execution id="c4d2779c-707d-4ca0-a9ec-39f1e1ea0d8d" />
+      <TestMethod codeBase="C:/Users/jnb-jonathant/Documents/Visual Studio 2010/Projects/GameOfLife/GameOfLife/bin/Debug/GameOfLife.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GameOfLife.CellTester, GameOfLife, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NullCellIsEqualToNull" />
+    </UnitTest>
+    <UnitTest name="GetCellDefaultReturnsCellWithNeighbours" storage="c:\users\jnb-jonathant\documents\visual studio 2010\projects\gameoflife\gameoflife\bin\debug\gameoflife.dll" id="49e10949-733f-4586-901d-5ab1b59883c9">
+      <Execution id="92b3eb18-f551-46fd-895e-4ab26b76f15c" />
+      <TestMethod codeBase="C:/Users/jnb-jonathant/Documents/Visual Studio 2010/Projects/GameOfLife/GameOfLife/bin/Debug/GameOfLife.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GameOfLife.WorldTester, GameOfLife, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetCellDefaultReturnsCellWithNeighbours" />
+    </UnitTest>
+    <UnitTest name="ListDeadCellNeighbours" storage="c:\users\jnb-jonathant\documents\visual studio 2010\projects\gameoflife\gameoflife\bin\debug\gameoflife.dll" id="17b14ac3-27a2-5d27-af40-da5ba5405d47">
+      <Execution id="4e0dfaba-6cd3-4213-8bad-e0faf73bbe76" />
+      <TestMethod codeBase="C:/Users/jnb-jonathant/Documents/Visual Studio 2010/Projects/GameOfLife/GameOfLife/bin/Debug/GameOfLife.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GameOfLife.WorldTester, GameOfLife, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ListDeadCellNeighbours" />
+    </UnitTest>
+    <UnitTest name="PositionHasXValue" storage="c:\users\jnb-jonathant\documents\visual studio 2010\projects\gameoflife\gameoflife\bin\debug\gameoflife.dll" id="1cb82a2e-7609-cbcf-2ecd-bbed14610d31">
+      <Execution id="66e375f1-63ba-4718-8677-56f435dcf933" />
+      <TestMethod codeBase="C:/Users/jnb-jonathant/Documents/Visual Studio 2010/Projects/GameOfLife/GameOfLife/bin/Debug/GameOfLife.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GameOfLife.PositionTester, GameOfLife, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PositionHasXValue" />
+    </UnitTest>
+    <UnitTest name="PositionIsNotNeighbourOfAnotherPosition" storage="c:\users\jnb-jonathant\documents\visual studio 2010\projects\gameoflife\gameoflife\bin\debug\gameoflife.dll" id="a521abde-a9d2-95b7-8f2a-ed4f052b6928">
+      <Execution id="24889fe6-0ee2-4d84-b04e-0996bd6c9eb6" />
+      <TestMethod codeBase="C:/Users/jnb-jonathant/Documents/Visual Studio 2010/Projects/GameOfLife/GameOfLife/bin/Debug/GameOfLife.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GameOfLife.PositionTester, GameOfLife, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PositionIsNotNeighbourOfAnotherPosition" />
+    </UnitTest>
+    <UnitTest name="CellWithLessThan2NeighboursDies" storage="c:\users\jnb-jonathant\documents\visual studio 2010\projects\gameoflife\gameoflife\bin\debug\gameoflife.dll" id="d0e4a979-e4ee-6da3-f7f8-9a82952c506d">
+      <Execution id="9c6a36d3-c94c-40e6-8349-37369fe97c50" />
+      <TestMethod codeBase="C:/Users/jnb-jonathant/Documents/Visual Studio 2010/Projects/GameOfLife/GameOfLife/bin/Debug/GameOfLife.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GameOfLife.EvolverTester, GameOfLife, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CellWithLessThan2NeighboursDies" />
+    </UnitTest>
+    <UnitTest name="CollectListOfCellsDeadNeighbours" storage="c:\users\jnb-jonathant\documents\visual studio 2010\projects\gameoflife\gameoflife\bin\debug\gameoflife.dll" id="7261c3b9-aa83-8ec2-3026-3fbb466b715a">
+      <Execution id="4526ffb3-b961-466f-bcfa-f9f668585343" />
+      <TestMethod codeBase="C:/Users/jnb-jonathant/Documents/Visual Studio 2010/Projects/GameOfLife/GameOfLife/bin/Debug/GameOfLife.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GameOfLife.WorldTester, GameOfLife, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CollectListOfCellsDeadNeighbours" />
+    </UnitTest>
+    <UnitTest name="PositionWithNegativeYValueIsNotValid" storage="c:\users\jnb-jonathant\documents\visual studio 2010\projects\gameoflife\gameoflife\bin\debug\gameoflife.dll" id="cd1e7d0b-f518-5970-425f-cd31a97d9639">
+      <Execution id="4a07d594-dab0-47ea-9e66-20c75499ec22" />
+      <TestMethod codeBase="C:/Users/jnb-jonathant/Documents/Visual Studio 2010/Projects/GameOfLife/GameOfLife/bin/Debug/GameOfLife.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GameOfLife.PositionTester, GameOfLife, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PositionWithNegativeYValueIsNotValid" />
+    </UnitTest>
+    <UnitTest name="GetNeighboursReturnsListOfPositions" storage="c:\users\jnb-jonathant\documents\visual studio 2010\projects\gameoflife\gameoflife\bin\debug\gameoflife.dll" id="a1381da4-32cc-e58f-044e-8535b834a71d">
+      <Execution id="2751bc02-e88b-46f9-a4de-29b5f0e7336e" />
+      <TestMethod codeBase="C:/Users/jnb-jonathant/Documents/Visual Studio 2010/Projects/GameOfLife/GameOfLife/bin/Debug/GameOfLife.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GameOfLife.PositionTester, GameOfLife, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetNeighboursReturnsListOfPositions" />
+    </UnitTest>
+    <UnitTest name="PositionIsNeighbourOfAnotherPosition" storage="c:\users\jnb-jonathant\documents\visual studio 2010\projects\gameoflife\gameoflife\bin\debug\gameoflife.dll" id="28960787-63e9-5def-b20c-6b978f4285f8">
+      <Execution id="c133491e-44de-41db-9b83-a0bb7b580322" />
+      <TestMethod codeBase="C:/Users/jnb-jonathant/Documents/Visual Studio 2010/Projects/GameOfLife/GameOfLife/bin/Debug/GameOfLife.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GameOfLife.PositionTester, GameOfLife, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PositionIsNeighbourOfAnotherPosition" />
+    </UnitTest>
+    <UnitTest name="CreateCellWithAPosition" storage="c:\users\jnb-jonathant\documents\visual studio 2010\projects\gameoflife\gameoflife\bin\debug\gameoflife.dll" id="2ee7637b-c841-7d8e-634c-f4d83fed4753">
+      <Execution id="8fc9b80d-3a45-402c-911a-03d5cb36378c" />
+      <TestMethod codeBase="C:/Users/jnb-jonathant/Documents/Visual Studio 2010/Projects/GameOfLife/GameOfLife/bin/Debug/GameOfLife.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GameOfLife.CellTester, GameOfLife, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreateCellWithAPosition" />
+    </UnitTest>
+    <UnitTest name="CellWithMoreThanThreeNeighboursDies" storage="c:\users\jnb-jonathant\documents\visual studio 2010\projects\gameoflife\gameoflife\bin\debug\gameoflife.dll" id="3d256c1a-4576-4d53-2113-af9bfddd8a45">
+      <Execution id="ceaa5dc7-1392-45e1-8c57-4b7ccb23ceda" />
+      <TestMethod codeBase="C:/Users/jnb-jonathant/Documents/Visual Studio 2010/Projects/GameOfLife/GameOfLife/bin/Debug/GameOfLife.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GameOfLife.EvolverTester, GameOfLife, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CellWithMoreThanThreeNeighboursDies" />
+    </UnitTest>
+    <UnitTest name="PositionWithPositiveYValueIsValid" storage="c:\users\jnb-jonathant\documents\visual studio 2010\projects\gameoflife\gameoflife\bin\debug\gameoflife.dll" id="6f88398f-061f-8478-6ee9-22b8d31b0481">
+      <Execution id="c210f400-9c75-49da-8a53-a74d6e444f75" />
+      <TestMethod codeBase="C:/Users/jnb-jonathant/Documents/Visual Studio 2010/Projects/GameOfLife/GameOfLife/bin/Debug/GameOfLife.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GameOfLife.PositionTester, GameOfLife, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PositionWithPositiveYValueIsValid" />
+    </UnitTest>
+    <UnitTest name="GetCellReturnsDeadCellIfPositionNotFound" storage="c:\users\jnb-jonathant\documents\visual studio 2010\projects\gameoflife\gameoflife\bin\debug\gameoflife.dll" id="abda540c-ccb1-069d-7b01-eb2929212ed3">
+      <Execution id="52180347-fe98-41f9-9125-601ccc4c3f1b" />
+      <TestMethod codeBase="C:/Users/jnb-jonathant/Documents/Visual Studio 2010/Projects/GameOfLife/GameOfLife/bin/Debug/GameOfLife.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GameOfLife.WorldTester, GameOfLife, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetCellReturnsDeadCellIfPositionNotFound" />
+    </UnitTest>
+    <UnitTest name="CellIsNotEqualToNull" storage="c:\users\jnb-jonathant\documents\visual studio 2010\projects\gameoflife\gameoflife\bin\debug\gameoflife.dll" id="d5221296-da67-a796-d2e0-a26cc1382665">
+      <Execution id="99949676-7ebc-4768-80ed-072eee732619" />
+      <TestMethod codeBase="C:/Users/jnb-jonathant/Documents/Visual Studio 2010/Projects/GameOfLife/GameOfLife/bin/Debug/GameOfLife.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GameOfLife.CellTester, GameOfLife, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CellIsNotEqualToNull" />
+    </UnitTest>
+    <UnitTest name="PositionWithPositiveXValueIsValid" storage="c:\users\jnb-jonathant\documents\visual studio 2010\projects\gameoflife\gameoflife\bin\debug\gameoflife.dll" id="3b6032c1-9b19-65be-5fa7-06013e1afbc2">
+      <Execution id="cef815f2-8100-4ebe-b330-7cb1294e00e4" />
+      <TestMethod codeBase="C:/Users/jnb-jonathant/Documents/Visual Studio 2010/Projects/GameOfLife/GameOfLife/bin/Debug/GameOfLife.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GameOfLife.PositionTester, GameOfLife, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PositionWithPositiveXValueIsValid" />
+    </UnitTest>
+    <UnitTest name="GetCellByPosition" storage="c:\users\jnb-jonathant\documents\visual studio 2010\projects\gameoflife\gameoflife\bin\debug\gameoflife.dll" id="cf213716-037b-27cb-b98f-ba2501584795">
+      <Execution id="aae15caf-7f1e-427c-ba0b-b5d62987a6f0" />
+      <TestMethod codeBase="C:/Users/jnb-jonathant/Documents/Visual Studio 2010/Projects/GameOfLife/GameOfLife/bin/Debug/GameOfLife.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GameOfLife.WorldTester, GameOfLife, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetCellByPosition" />
+    </UnitTest>
+    <UnitTest name="TwoPositionsWithSameValuesAreNotEqualAssertFalse" storage="c:\users\jnb-jonathant\documents\visual studio 2010\projects\gameoflife\gameoflife\bin\debug\gameoflife.dll" id="fc2ff394-dd6a-b847-ef8e-cad6e9a1a26f">
+      <Execution id="9d37adc6-ea39-476a-a7f8-0ec7e8cd3d10" />
+      <TestMethod codeBase="C:/Users/jnb-jonathant/Documents/Visual Studio 2010/Projects/GameOfLife/GameOfLife/bin/Debug/GameOfLife.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GameOfLife.PositionTester, GameOfLife, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TwoPositionsWithSameValuesAreNotEqualAssertFalse" />
+    </UnitTest>
+    <UnitTest name="TwoCellsAreNotNeighbours" storage="c:\users\jnb-jonathant\documents\visual studio 2010\projects\gameoflife\gameoflife\bin\debug\gameoflife.dll" id="e6cb870c-8835-729e-e975-77be1835e257">
+      <Execution id="0ffe693c-d674-4c83-87ae-74a300d51d5e" />
+      <TestMethod codeBase="C:/Users/jnb-jonathant/Documents/Visual Studio 2010/Projects/GameOfLife/GameOfLife/bin/Debug/GameOfLife.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GameOfLife.WorldTester, GameOfLife, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TwoCellsAreNotNeighbours" />
+    </UnitTest>
+    <UnitTest name="PositionWithNegativeXValueIsNotValid" storage="c:\users\jnb-jonathant\documents\visual studio 2010\projects\gameoflife\gameoflife\bin\debug\gameoflife.dll" id="5cca83b4-d9c4-f299-895b-13fb657ee558">
+      <Execution id="fa7f4d82-64e9-4033-8af9-23830aa4ff05" />
+      <TestMethod codeBase="C:/Users/jnb-jonathant/Documents/Visual Studio 2010/Projects/GameOfLife/GameOfLife/bin/Debug/GameOfLife.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GameOfLife.PositionTester, GameOfLife, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PositionWithNegativeXValueIsNotValid" />
+    </UnitTest>
+    <UnitTest name="CountCellsNeigbours" storage="c:\users\jnb-jonathant\documents\visual studio 2010\projects\gameoflife\gameoflife\bin\debug\gameoflife.dll" id="6a87386b-9570-f4f7-21c4-726ce469f0fd">
+      <Execution id="6701917e-f4d9-48ac-a5e7-653cb8f2cd2b" />
+      <TestMethod codeBase="C:/Users/jnb-jonathant/Documents/Visual Studio 2010/Projects/GameOfLife/GameOfLife/bin/Debug/GameOfLife.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GameOfLife.WorldTester, GameOfLife, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CountCellsNeigbours" />
+    </UnitTest>
+    <UnitTest name="PositionHasYValue" storage="c:\users\jnb-jonathant\documents\visual studio 2010\projects\gameoflife\gameoflife\bin\debug\gameoflife.dll" id="a1d294e8-9357-7769-ac71-dfeba3d913b2">
+      <Execution id="1f906da6-1dc5-409a-b157-b75c850d9547" />
+      <TestMethod codeBase="C:/Users/jnb-jonathant/Documents/Visual Studio 2010/Projects/GameOfLife/GameOfLife/bin/Debug/GameOfLife.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GameOfLife.PositionTester, GameOfLife, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PositionHasYValue" />
+    </UnitTest>
+    <UnitTest name="PositionCreatedUsingANeighbourPositionGeneratesListOfNeighbours" storage="c:\users\jnb-jonathant\documents\visual studio 2010\projects\gameoflife\gameoflife\bin\debug\gameoflife.dll" id="3cea6d12-4831-3f96-7ddd-518b69e8922d">
+      <Execution id="b0b15608-fd63-488b-a586-af3861b15ff3" />
+      <TestMethod codeBase="C:/Users/jnb-jonathant/Documents/Visual Studio 2010/Projects/GameOfLife/GameOfLife/bin/Debug/GameOfLife.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GameOfLife.PositionTester, GameOfLife, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PositionCreatedUsingANeighbourPositionGeneratesListOfNeighbours" />
+    </UnitTest>
+    <UnitTest name="TwoCellsAreNeighbours" storage="c:\users\jnb-jonathant\documents\visual studio 2010\projects\gameoflife\gameoflife\bin\debug\gameoflife.dll" id="f2f517e3-b39b-900b-33e0-5a355b258288">
+      <Execution id="2b3bbe34-c118-4f88-a370-0c951edd6e80" />
+      <TestMethod codeBase="C:/Users/jnb-jonathant/Documents/Visual Studio 2010/Projects/GameOfLife/GameOfLife/bin/Debug/GameOfLife.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GameOfLife.WorldTester, GameOfLife, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TwoCellsAreNeighbours" />
+    </UnitTest>
+    <UnitTest name="DeadCellWithFourLiveCellsLives" storage="c:\users\jnb-jonathant\documents\visual studio 2010\projects\gameoflife\gameoflife\bin\debug\gameoflife.dll" id="87201a16-45fb-1f3c-e230-da8b5b2d9b7e">
+      <Execution id="711bf7a1-e5f9-40f1-9f93-f13c7d4d20df" />
+      <TestMethod codeBase="C:/Users/jnb-jonathant/Documents/Visual Studio 2010/Projects/GameOfLife/GameOfLife/bin/Debug/GameOfLife.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GameOfLife.EvolverTester, GameOfLife, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DeadCellWithFourLiveCellsLives" />
+    </UnitTest>
+    <UnitTest name="GetCellNeighbourReturnsCellWithNeighbours" storage="c:\users\jnb-jonathant\documents\visual studio 2010\projects\gameoflife\gameoflife\bin\debug\gameoflife.dll" id="fb0308cc-817e-6666-40d8-bbe0d53f7157">
+      <Execution id="c31f7a9f-0e97-41e4-93c8-74e4e697b655" />
+      <TestMethod codeBase="C:/Users/jnb-jonathant/Documents/Visual Studio 2010/Projects/GameOfLife/GameOfLife/bin/Debug/GameOfLife.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GameOfLife.WorldTester, GameOfLife, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetCellNeighbourReturnsCellWithNeighbours" />
+    </UnitTest>
+    <UnitTest name="CellWithTwoOrThreeNeighboursLives" storage="c:\users\jnb-jonathant\documents\visual studio 2010\projects\gameoflife\gameoflife\bin\debug\gameoflife.dll" id="250b0aeb-6b8e-06b5-3ad3-4f8d0cbff5c9">
+      <Execution id="5a138f1e-5c9f-4f41-95be-589df5d7c6a1" />
+      <TestMethod codeBase="C:/Users/jnb-jonathant/Documents/Visual Studio 2010/Projects/GameOfLife/GameOfLife/bin/Debug/GameOfLife.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GameOfLife.EvolverTester, GameOfLife, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CellWithTwoOrThreeNeighboursLives" />
+    </UnitTest>
+    <UnitTest name="AddCellFailsIfCellPositionAlreadyUsed" storage="c:\users\jnb-jonathant\documents\visual studio 2010\projects\gameoflife\gameoflife\bin\debug\gameoflife.dll" id="f7e5fd74-ee0f-b341-a324-748f9a17700e">
+      <Execution id="3714ec69-7255-49a8-94c5-9b86da0d1c3b" />
+      <TestMethod codeBase="C:/Users/jnb-jonathant/Documents/Visual Studio 2010/Projects/GameOfLife/GameOfLife/bin/Debug/GameOfLife.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GameOfLife.WorldTester, GameOfLife, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AddCellFailsIfCellPositionAlreadyUsed" />
+    </UnitTest>
+    <UnitTest name="CreateWorldWithOnlyOneCell" storage="c:\users\jnb-jonathant\documents\visual studio 2010\projects\gameoflife\gameoflife\bin\debug\gameoflife.dll" id="e37249d0-1d5b-ea11-7762-0c542a8f31b7">
+      <Execution id="b0554b88-632c-479a-93c8-6d8f12bc1963" />
+      <TestMethod codeBase="C:/Users/jnb-jonathant/Documents/Visual Studio 2010/Projects/GameOfLife/GameOfLife/bin/Debug/GameOfLife.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GameOfLife.WorldTester, GameOfLife, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreateWorldWithOnlyOneCell" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="17b14ac3-27a2-5d27-af40-da5ba5405d47" executionId="4e0dfaba-6cd3-4213-8bad-e0faf73bbe76" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1cb82a2e-7609-cbcf-2ecd-bbed14610d31" executionId="66e375f1-63ba-4718-8677-56f435dcf933" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="250b0aeb-6b8e-06b5-3ad3-4f8d0cbff5c9" executionId="5a138f1e-5c9f-4f41-95be-589df5d7c6a1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="28960787-63e9-5def-b20c-6b978f4285f8" executionId="c133491e-44de-41db-9b83-a0bb7b580322" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2ee7637b-c841-7d8e-634c-f4d83fed4753" executionId="8fc9b80d-3a45-402c-911a-03d5cb36378c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3b6032c1-9b19-65be-5fa7-06013e1afbc2" executionId="cef815f2-8100-4ebe-b330-7cb1294e00e4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3c03a19d-5e41-cedc-7604-60ab0dc811b6" executionId="c4d2779c-707d-4ca0-a9ec-39f1e1ea0d8d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3cea6d12-4831-3f96-7ddd-518b69e8922d" executionId="b0b15608-fd63-488b-a586-af3861b15ff3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3d256c1a-4576-4d53-2113-af9bfddd8a45" executionId="ceaa5dc7-1392-45e1-8c57-4b7ccb23ceda" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="49e10949-733f-4586-901d-5ab1b59883c9" executionId="92b3eb18-f551-46fd-895e-4ab26b76f15c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5cca83b4-d9c4-f299-895b-13fb657ee558" executionId="fa7f4d82-64e9-4033-8af9-23830aa4ff05" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6a87386b-9570-f4f7-21c4-726ce469f0fd" executionId="6701917e-f4d9-48ac-a5e7-653cb8f2cd2b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6f88398f-061f-8478-6ee9-22b8d31b0481" executionId="c210f400-9c75-49da-8a53-a74d6e444f75" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7261c3b9-aa83-8ec2-3026-3fbb466b715a" executionId="4526ffb3-b961-466f-bcfa-f9f668585343" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="87201a16-45fb-1f3c-e230-da8b5b2d9b7e" executionId="711bf7a1-e5f9-40f1-9f93-f13c7d4d20df" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a1381da4-32cc-e58f-044e-8535b834a71d" executionId="2751bc02-e88b-46f9-a4de-29b5f0e7336e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a1d294e8-9357-7769-ac71-dfeba3d913b2" executionId="1f906da6-1dc5-409a-b157-b75c850d9547" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a521abde-a9d2-95b7-8f2a-ed4f052b6928" executionId="24889fe6-0ee2-4d84-b04e-0996bd6c9eb6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a9eefc1c-3f18-9780-4f03-38397751660e" executionId="68b9bb2e-7fd5-4933-b585-270cf519d0e5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="abda540c-ccb1-069d-7b01-eb2929212ed3" executionId="52180347-fe98-41f9-9125-601ccc4c3f1b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c462352c-ef31-22c4-c31f-ed2090a974af" executionId="f34062d5-75b5-455b-bb2b-f0426ebaa613" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cd1e7d0b-f518-5970-425f-cd31a97d9639" executionId="4a07d594-dab0-47ea-9e66-20c75499ec22" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cf213716-037b-27cb-b98f-ba2501584795" executionId="aae15caf-7f1e-427c-ba0b-b5d62987a6f0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d0e4a979-e4ee-6da3-f7f8-9a82952c506d" executionId="9c6a36d3-c94c-40e6-8349-37369fe97c50" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d5221296-da67-a796-d2e0-a26cc1382665" executionId="99949676-7ebc-4768-80ed-072eee732619" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e37249d0-1d5b-ea11-7762-0c542a8f31b7" executionId="b0554b88-632c-479a-93c8-6d8f12bc1963" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e6cb870c-8835-729e-e975-77be1835e257" executionId="0ffe693c-d674-4c83-87ae-74a300d51d5e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ed65301a-2312-5305-dc4f-5ffbcf0ad226" executionId="5a1ea609-47fa-48e1-b599-78d95a3a6be8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f2f517e3-b39b-900b-33e0-5a355b258288" executionId="2b3bbe34-c118-4f88-a370-0c951edd6e80" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f7e5fd74-ee0f-b341-a324-748f9a17700e" executionId="3714ec69-7255-49a8-94c5-9b86da0d1c3b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fb0308cc-817e-6666-40d8-bbe0d53f7157" executionId="c31f7a9f-0e97-41e4-93c8-74e4e697b655" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fc2ff394-dd6a-b847-ef8e-cad6e9a1a26f" executionId="9d37adc6-ea39-476a-a7f8-0ec7e8cd3d10" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="4e0dfaba-6cd3-4213-8bad-e0faf73bbe76" testId="17b14ac3-27a2-5d27-af40-da5ba5405d47" testName="ListDeadCellNeighbours" computerName="JNB-JONATHANT" duration="00:00:00.0199517" startTime="2013-04-23T08:39:00.1914220+02:00" endTime="2013-04-23T08:39:00.3554384+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4e0dfaba-6cd3-4213-8bad-e0faf73bbe76">
+    </UnitTestResult>
+    <UnitTestResult executionId="66e375f1-63ba-4718-8677-56f435dcf933" testId="1cb82a2e-7609-cbcf-2ecd-bbed14610d31" testName="PositionHasXValue" computerName="JNB-JONATHANT" duration="00:00:00.0002593" startTime="2013-04-23T08:39:00.3574386+02:00" endTime="2013-04-23T08:39:00.3614390+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="66e375f1-63ba-4718-8677-56f435dcf933">
+    </UnitTestResult>
+    <UnitTestResult executionId="5a138f1e-5c9f-4f41-95be-589df5d7c6a1" testId="250b0aeb-6b8e-06b5-3ad3-4f8d0cbff5c9" testName="CellWithTwoOrThreeNeighboursLives" computerName="JNB-JONATHANT" duration="00:00:00.0033416" startTime="2013-04-23T08:39:00.3634392+02:00" endTime="2013-04-23T08:39:00.3694398+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5a138f1e-5c9f-4f41-95be-589df5d7c6a1">
+    </UnitTestResult>
+    <UnitTestResult executionId="c133491e-44de-41db-9b83-a0bb7b580322" testId="28960787-63e9-5def-b20c-6b978f4285f8" testName="PositionIsNeighbourOfAnotherPosition" computerName="JNB-JONATHANT" duration="00:00:00.0003944" startTime="2013-04-23T08:39:00.3704399+02:00" endTime="2013-04-23T08:39:00.3744403+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c133491e-44de-41db-9b83-a0bb7b580322">
+    </UnitTestResult>
+    <UnitTestResult executionId="8fc9b80d-3a45-402c-911a-03d5cb36378c" testId="2ee7637b-c841-7d8e-634c-f4d83fed4753" testName="CreateCellWithAPosition" computerName="JNB-JONATHANT" duration="00:00:00.0003580" startTime="2013-04-23T08:39:00.3764405+02:00" endTime="2013-04-23T08:39:00.3804409+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8fc9b80d-3a45-402c-911a-03d5cb36378c">
+    </UnitTestResult>
+    <UnitTestResult executionId="cef815f2-8100-4ebe-b330-7cb1294e00e4" testId="3b6032c1-9b19-65be-5fa7-06013e1afbc2" testName="PositionWithPositiveXValueIsValid" computerName="JNB-JONATHANT" duration="00:00:00.0001405" startTime="2013-04-23T08:39:00.3814410+02:00" endTime="2013-04-23T08:39:00.3854414+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cef815f2-8100-4ebe-b330-7cb1294e00e4">
+    </UnitTestResult>
+    <UnitTestResult executionId="c4d2779c-707d-4ca0-a9ec-39f1e1ea0d8d" testId="3c03a19d-5e41-cedc-7604-60ab0dc811b6" testName="NullCellIsEqualToNull" computerName="JNB-JONATHANT" duration="00:00:00.0002982" startTime="2013-04-23T08:39:00.3864415+02:00" endTime="2013-04-23T08:39:00.3914420+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c4d2779c-707d-4ca0-a9ec-39f1e1ea0d8d">
+    </UnitTestResult>
+    <UnitTestResult executionId="b0b15608-fd63-488b-a586-af3861b15ff3" testId="3cea6d12-4831-3f96-7ddd-518b69e8922d" testName="PositionCreatedUsingANeighbourPositionGeneratesListOfNeighbours" computerName="JNB-JONATHANT" duration="00:00:00.0003004" startTime="2013-04-23T08:39:00.3924421+02:00" endTime="2013-04-23T08:39:00.3964425+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b0b15608-fd63-488b-a586-af3861b15ff3">
+    </UnitTestResult>
+    <UnitTestResult executionId="ceaa5dc7-1392-45e1-8c57-4b7ccb23ceda" testId="3d256c1a-4576-4d53-2113-af9bfddd8a45" testName="CellWithMoreThanThreeNeighboursDies" computerName="JNB-JONATHANT" duration="00:00:00.0013857" startTime="2013-04-23T08:39:00.3984427+02:00" endTime="2013-04-23T08:39:00.4034432+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ceaa5dc7-1392-45e1-8c57-4b7ccb23ceda">
+    </UnitTestResult>
+    <UnitTestResult executionId="92b3eb18-f551-46fd-895e-4ab26b76f15c" testId="49e10949-733f-4586-901d-5ab1b59883c9" testName="GetCellDefaultReturnsCellWithNeighbours" computerName="JNB-JONATHANT" duration="00:00:00.0002348" startTime="2013-04-23T08:39:00.4054434+02:00" endTime="2013-04-23T08:39:00.4084437+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="92b3eb18-f551-46fd-895e-4ab26b76f15c">
+    </UnitTestResult>
+    <UnitTestResult executionId="fa7f4d82-64e9-4033-8af9-23830aa4ff05" testId="5cca83b4-d9c4-f299-895b-13fb657ee558" testName="PositionWithNegativeXValueIsNotValid" computerName="JNB-JONATHANT" duration="00:00:00.0001452" startTime="2013-04-23T08:39:00.4104439+02:00" endTime="2013-04-23T08:39:00.4144443+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fa7f4d82-64e9-4033-8af9-23830aa4ff05">
+    </UnitTestResult>
+    <UnitTestResult executionId="6701917e-f4d9-48ac-a5e7-653cb8f2cd2b" testId="6a87386b-9570-f4f7-21c4-726ce469f0fd" testName="CountCellsNeigbours" computerName="JNB-JONATHANT" duration="00:00:00.0002593" startTime="2013-04-23T08:39:00.4154444+02:00" endTime="2013-04-23T08:39:00.4194448+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6701917e-f4d9-48ac-a5e7-653cb8f2cd2b">
+    </UnitTestResult>
+    <UnitTestResult executionId="c210f400-9c75-49da-8a53-a74d6e444f75" testId="6f88398f-061f-8478-6ee9-22b8d31b0481" testName="PositionWithPositiveYValueIsValid" computerName="JNB-JONATHANT" duration="00:00:00.0001416" startTime="2013-04-23T08:39:00.4204449+02:00" endTime="2013-04-23T08:39:00.4244453+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c210f400-9c75-49da-8a53-a74d6e444f75">
+    </UnitTestResult>
+    <UnitTestResult executionId="4526ffb3-b961-466f-bcfa-f9f668585343" testId="7261c3b9-aa83-8ec2-3026-3fbb466b715a" testName="CollectListOfCellsDeadNeighbours" computerName="JNB-JONATHANT" duration="00:00:00.0010955" startTime="2013-04-23T08:39:00.4254454+02:00" endTime="2013-04-23T08:39:00.4304459+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4526ffb3-b961-466f-bcfa-f9f668585343">
+    </UnitTestResult>
+    <UnitTestResult executionId="711bf7a1-e5f9-40f1-9f93-f13c7d4d20df" testId="87201a16-45fb-1f3c-e230-da8b5b2d9b7e" testName="DeadCellWithFourLiveCellsLives" computerName="JNB-JONATHANT" duration="00:00:00.0005389" startTime="2013-04-23T08:39:00.4314460+02:00" endTime="2013-04-23T08:39:00.4354464+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="711bf7a1-e5f9-40f1-9f93-f13c7d4d20df">
+    </UnitTestResult>
+    <UnitTestResult executionId="2751bc02-e88b-46f9-a4de-29b5f0e7336e" testId="a1381da4-32cc-e58f-044e-8535b834a71d" testName="GetNeighboursReturnsListOfPositions" computerName="JNB-JONATHANT" duration="00:00:00.0002359" startTime="2013-04-23T08:39:00.4374466+02:00" endTime="2013-04-23T08:39:00.4404469+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2751bc02-e88b-46f9-a4de-29b5f0e7336e">
+    </UnitTestResult>
+    <UnitTestResult executionId="1f906da6-1dc5-409a-b157-b75c850d9547" testId="a1d294e8-9357-7769-ac71-dfeba3d913b2" testName="PositionHasYValue" computerName="JNB-JONATHANT" duration="00:00:00.0001581" startTime="2013-04-23T08:39:00.4424471+02:00" endTime="2013-04-23T08:39:00.4464475+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1f906da6-1dc5-409a-b157-b75c850d9547">
+    </UnitTestResult>
+    <UnitTestResult executionId="24889fe6-0ee2-4d84-b04e-0996bd6c9eb6" testId="a521abde-a9d2-95b7-8f2a-ed4f052b6928" testName="PositionIsNotNeighbourOfAnotherPosition" computerName="JNB-JONATHANT" duration="00:00:00.0003845" startTime="2013-04-23T08:39:00.4474476+02:00" endTime="2013-04-23T08:39:00.4514480+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="24889fe6-0ee2-4d84-b04e-0996bd6c9eb6">
+    </UnitTestResult>
+    <UnitTestResult executionId="68b9bb2e-7fd5-4933-b585-270cf519d0e5" testId="a9eefc1c-3f18-9780-4f03-38397751660e" testName="TwoPositionsWithDifferentValuesAreNotEqualAssertTrue" computerName="JNB-JONATHANT" duration="00:00:00.0001647" startTime="2013-04-23T08:39:00.4524481+02:00" endTime="2013-04-23T08:39:00.4564485+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="68b9bb2e-7fd5-4933-b585-270cf519d0e5">
+    </UnitTestResult>
+    <UnitTestResult executionId="52180347-fe98-41f9-9125-601ccc4c3f1b" testId="abda540c-ccb1-069d-7b01-eb2929212ed3" testName="GetCellReturnsDeadCellIfPositionNotFound" computerName="JNB-JONATHANT" duration="00:00:00.0001775" startTime="2013-04-23T08:39:00.4584487+02:00" endTime="2013-04-23T08:39:00.4614490+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="52180347-fe98-41f9-9125-601ccc4c3f1b">
+    </UnitTestResult>
+    <UnitTestResult executionId="f34062d5-75b5-455b-bb2b-f0426ebaa613" testId="c462352c-ef31-22c4-c31f-ed2090a974af" testName="TwoPositionsWithSameValuesAreEqual" computerName="JNB-JONATHANT" duration="00:00:00.0001562" startTime="2013-04-23T08:39:00.4634492+02:00" endTime="2013-04-23T08:39:00.4674496+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f34062d5-75b5-455b-bb2b-f0426ebaa613">
+    </UnitTestResult>
+    <UnitTestResult executionId="4a07d594-dab0-47ea-9e66-20c75499ec22" testId="cd1e7d0b-f518-5970-425f-cd31a97d9639" testName="PositionWithNegativeYValueIsNotValid" computerName="JNB-JONATHANT" duration="00:00:00.0001434" startTime="2013-04-23T08:39:00.4684497+02:00" endTime="2013-04-23T08:39:00.4724501+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4a07d594-dab0-47ea-9e66-20c75499ec22">
+    </UnitTestResult>
+    <UnitTestResult executionId="aae15caf-7f1e-427c-ba0b-b5d62987a6f0" testId="cf213716-037b-27cb-b98f-ba2501584795" testName="GetCellByPosition" computerName="JNB-JONATHANT" duration="00:00:00.0002421" startTime="2013-04-23T08:39:00.4734502+02:00" endTime="2013-04-23T08:39:00.4774506+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="aae15caf-7f1e-427c-ba0b-b5d62987a6f0">
+    </UnitTestResult>
+    <UnitTestResult executionId="9c6a36d3-c94c-40e6-8349-37369fe97c50" testId="d0e4a979-e4ee-6da3-f7f8-9a82952c506d" testName="CellWithLessThan2NeighboursDies" computerName="JNB-JONATHANT" duration="00:00:00.0002887" startTime="2013-04-23T08:39:00.4784507+02:00" endTime="2013-04-23T08:39:00.4824511+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9c6a36d3-c94c-40e6-8349-37369fe97c50">
+    </UnitTestResult>
+    <UnitTestResult executionId="99949676-7ebc-4768-80ed-072eee732619" testId="d5221296-da67-a796-d2e0-a26cc1382665" testName="CellIsNotEqualToNull" computerName="JNB-JONATHANT" duration="00:00:00.0002091" startTime="2013-04-23T08:39:00.4834512+02:00" endTime="2013-04-23T08:39:00.4874516+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="99949676-7ebc-4768-80ed-072eee732619">
+    </UnitTestResult>
+    <UnitTestResult executionId="b0554b88-632c-479a-93c8-6d8f12bc1963" testId="e37249d0-1d5b-ea11-7762-0c542a8f31b7" testName="CreateWorldWithOnlyOneCell" computerName="JNB-JONATHANT" duration="00:00:00.0008442" startTime="2013-04-23T08:39:00.4894518+02:00" endTime="2013-04-23T08:39:00.4934522+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b0554b88-632c-479a-93c8-6d8f12bc1963">
+    </UnitTestResult>
+    <UnitTestResult executionId="0ffe693c-d674-4c83-87ae-74a300d51d5e" testId="e6cb870c-8835-729e-e975-77be1835e257" testName="TwoCellsAreNotNeighbours" computerName="JNB-JONATHANT" duration="00:00:00.0005092" startTime="2013-04-23T08:39:00.4954524+02:00" endTime="2013-04-23T08:39:00.5014530+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0ffe693c-d674-4c83-87ae-74a300d51d5e">
+    </UnitTestResult>
+    <UnitTestResult executionId="5a1ea609-47fa-48e1-b599-78d95a3a6be8" testId="ed65301a-2312-5305-dc4f-5ffbcf0ad226" testName="NewCellGetsDefaultPositionOf00" computerName="JNB-JONATHANT" duration="00:00:00.0001618" startTime="2013-04-23T08:39:00.5024531+02:00" endTime="2013-04-23T08:39:00.5064535+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5a1ea609-47fa-48e1-b599-78d95a3a6be8">
+    </UnitTestResult>
+    <UnitTestResult executionId="2b3bbe34-c118-4f88-a370-0c951edd6e80" testId="f2f517e3-b39b-900b-33e0-5a355b258288" testName="TwoCellsAreNeighbours" computerName="JNB-JONATHANT" duration="00:00:00.0002201" startTime="2013-04-23T08:39:00.5074536+02:00" endTime="2013-04-23T08:39:00.5114540+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2b3bbe34-c118-4f88-a370-0c951edd6e80">
+    </UnitTestResult>
+    <UnitTestResult executionId="3714ec69-7255-49a8-94c5-9b86da0d1c3b" testId="f7e5fd74-ee0f-b341-a324-748f9a17700e" testName="AddCellFailsIfCellPositionAlreadyUsed" computerName="JNB-JONATHANT" duration="00:00:00.0031475" startTime="2013-04-23T08:39:00.5124541+02:00" endTime="2013-04-23T08:39:00.5194548+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3714ec69-7255-49a8-94c5-9b86da0d1c3b">
+    </UnitTestResult>
+    <UnitTestResult executionId="c31f7a9f-0e97-41e4-93c8-74e4e697b655" testId="fb0308cc-817e-6666-40d8-bbe0d53f7157" testName="GetCellNeighbourReturnsCellWithNeighbours" computerName="JNB-JONATHANT" duration="00:00:00.0002729" startTime="2013-04-23T08:39:00.5214550+02:00" endTime="2013-04-23T08:39:00.5264555+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c31f7a9f-0e97-41e4-93c8-74e4e697b655">
+    </UnitTestResult>
+    <UnitTestResult executionId="9d37adc6-ea39-476a-a7f8-0ec7e8cd3d10" testId="fc2ff394-dd6a-b847-ef8e-cad6e9a1a26f" testName="TwoPositionsWithSameValuesAreNotEqualAssertFalse" computerName="JNB-JONATHANT" duration="00:00:00.0001584" startTime="2013-04-23T08:39:00.5294558+02:00" endTime="2013-04-23T08:39:00.5334562+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9d37adc6-ea39-476a-a7f8-0ec7e8cd3d10">
+    </UnitTestResult>
+  </Results>
+</TestRun>

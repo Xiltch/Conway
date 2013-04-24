@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="cf1a27c9-8823-46c8-9f45-1cd134a9e6f7" name="jnb-jonathant@JNB-JONATHANT 2013-04-23 08:34:28" runUser="EXPD\jnb-jonathant" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Trace and Test Impact" id="835d18f1-7d41-4f74-88b9-e6c3cabaf477">
+    <Description>These are test settings for Trace and Test Impact.</Description>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+    <Deployment runDeploymentRoot="jnb-jonathant_JNB-JONATHANT 2013-04-23 08_34_28" />
+  </TestSettings>
+  <Times creation="2013-04-23T08:34:28.5162572+02:00" queuing="2013-04-23T08:34:29.3503406+02:00" start="2013-04-23T08:34:29.4533509+02:00" finish="2013-04-23T08:34:50.6494703+02:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="NullCellIsEqualToNull" storage="c:\users\jnb-jonathant\documents\visual studio 2010\projects\gameoflife\gameoflife\bin\debug\gameoflife.dll" id="3c03a19d-5e41-cedc-7604-60ab0dc811b6">
+      <Execution id="7afbf209-6c31-4aac-8189-588b2f623b9a" />
+      <TestMethod codeBase="C:/Users/jnb-jonathant/Documents/Visual Studio 2010/Projects/GameOfLife/GameOfLife/bin/Debug/GameOfLife.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GameOfLife.CellTester, GameOfLife, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NullCellIsEqualToNull" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="3c03a19d-5e41-cedc-7604-60ab0dc811b6" executionId="7afbf209-6c31-4aac-8189-588b2f623b9a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="7afbf209-6c31-4aac-8189-588b2f623b9a" testId="3c03a19d-5e41-cedc-7604-60ab0dc811b6" testName="NullCellIsEqualToNull" computerName="JNB-JONATHANT" duration="00:00:19.9859248" startTime="2013-04-23T08:34:29.5453601+02:00" endTime="2013-04-23T08:34:50.5834637+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7afbf209-6c31-4aac-8189-588b2f623b9a">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method GameOfLife.CellTester.NullCellIsEqualToNull threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>    at GameOfLife.Cell.op_Equality(Cell cell1, Cell cell2) in C:\Users\jnb-jonathant\Documents\Visual Studio 2010\Projects\GameOfLife\GameOfLife\Cell.cs:line 55
+   at GameOfLife.CellTester.NullCellIsEqualToNull() in C:\Users\jnb-jonathant\Documents\Visual Studio 2010\Projects\GameOfLife\GameOfLife\UnitTest1.cs:line 156
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameOfLife", "GameOfLife\GameOfLife.csproj", "{45D59794-A659-4414-8DD3-EA60127C82AC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9F2B45BA-F3CA-45E3-862F-A81590502C5E}"
+	ProjectSection(SolutionItems) = preProject
+		GameOfLife.vsmdi = GameOfLife.vsmdi
+		GameOfLife1.vsmdi = GameOfLife1.vsmdi
+		GameOfLife2.vsmdi = GameOfLife2.vsmdi
+		GameOfLife3.vsmdi = GameOfLife3.vsmdi
+		GameOfLife4.vsmdi = GameOfLife4.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{45D59794-A659-4414-8DD3-EA60127C82AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45D59794-A659-4414-8DD3-EA60127C82AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45D59794-A659-4414-8DD3-EA60127C82AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45D59794-A659-4414-8DD3-EA60127C82AC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
